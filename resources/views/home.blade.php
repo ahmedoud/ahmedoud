@@ -87,6 +87,69 @@
     </div>
 </section>
 
+<!-- À propos Section -->
+<section class="about" id="about">
+    <div class="container about-container">
+        <div class="about-content">
+            <h2>À propos d'A² Tech</h2>
+            <p>
+                A² Tech est une entreprise spécialisée dans les solutions informatiques innovantes. Nous résolvons tous vos problèmes IT en développant des logiciels sur mesure, des sites web performants et des applications mobiles de qualité professionnelle.
+            </p>
+            <p>
+                Notre mission est d'accompagner les entreprises dans leur transformation digitale en proposant des solutions technologiques adaptées à leurs besoins spécifiques. Nous mettons notre expertise au service de votre réussite.
+            </p>
+            <a href="#contact-section" class="primary-btn">Découvrir notre équipe</a>
+        </div>
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80" alt="Équipe A² Tech">
+        </div>
+    </div>
+    <div class="container about-stats">
+        <div class="about-stat">
+            <span>150+</span>
+            <p>Projets Réalisés</p>
+        </div>
+        <div class="about-stat">
+            <span>50+</span>
+            <p>Clients Satisfaits</p>
+        </div>
+        <div class="about-stat">
+            <span>5+</span>
+            <p>Années d’Expérience</p>
+        </div>
+        <div class="about-stat">
+            <span>24/7</span>
+            <p>Support Disponible</p>
+        </div>
+    </div>
+    <div class="container about-values">
+        <h3>Nos Valeurs</h3>
+        <div class="values-grid">
+            <div class="value-card">
+                <div class="value-icon"><i class="fas fa-lightbulb"></i></div>
+                <h4>Innovation</h4>
+                <p>Nous utilisons les dernières technologies pour créer des solutions avant-gardistes.</p>
+            </div>
+            <div class="value-card">
+                <div class="value-icon"><i class="fas fa-shield-alt"></i></div>
+                <h4>Fiabilité</h4>
+                <p>Des solutions robustes et sécurisées pour garantir la continuité de votre activité.</p>
+            </div>
+            <div class="value-card">
+                <div class="value-icon"><i class="fas fa-users"></i></div>
+                <h4>Expertise</h4>
+                <p>Une équipe d’experts passionnés avec une solide expérience technique.</p>
+            </div>
+            <div class="value-card">
+                <div class="value-icon"><i class="fas fa-headset"></i></div>
+                <h4>Support</h4>
+                <p>Un accompagnement personnalisé avant, pendant et après la réalisation de vos projets.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Fin À propos Section -->
+
 <!-- Portfolio Section -->
 <section id="portfolio" class="portfolio">
     <div class="container">

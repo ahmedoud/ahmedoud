@@ -481,7 +481,98 @@ footer .footer-col .contact-info i {
   margin-top: 36px;
 }
 
-/* Responsive */
+/* À propos Section */
+.about {
+  padding: 80px 0 40px 0;
+  background: #fff;
+}
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+}
+.about-content {
+  flex: 1 1 380px;
+}
+.about-content h2 {
+  font-size: 2.2rem;
+  margin-bottom: 18px;
+}
+.about-content p {
+  margin-bottom: 14px;
+  color: var(--gray);
+}
+.about-content .primary-btn {
+  margin-top: 12px;
+}
+.about-image {
+  flex: 1 1 340px;
+  display: flex;
+  justify-content: center;
+}
+.about-image img {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(37,99,235,0.08);
+}
+.about-stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 38px auto 0 auto;
+  max-width: 900px;
+  gap: 16px;
+}
+.about-stat {
+  text-align: center;
+}
+.about-stat span {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: var(--primary);
+  display: block;
+}
+.about-stat p {
+  color: var(--gray);
+  font-size: 1rem;
+}
+.about-values {
+  margin-top: 48px;
+}
+.about-values h3 {
+  text-align: center;
+  margin-bottom: 28px;
+  font-size: 1.3rem;
+}
+.values-grid {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.value-card {
+  background: var(--light);
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(37,99,235,0.06);
+  padding: 28px 22px;
+  text-align: center;
+  flex: 1 1 180px;
+  max-width: 240px;
+}
+.value-icon {
+  font-size: 2.2rem;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+.value-card h4 {
+  margin-bottom: 8px;
+  font-size: 1.08rem;
+}
+.value-card p {
+  color: var(--gray);
+  font-size: 0.97rem;
+}
 @media (max-width: 900px) {
   .hero { padding:120px 0 60px; }
   .nav-menu {
@@ -510,5 +601,22 @@ footer .footer-col .contact-info i {
   }
   .portfolio-grid {
     grid-template-columns: 1fr;
+  }
+  .about-container {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .about-image img {
+    max-width: 100%;
+  }
+  .about-stats {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .values-grid {
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
   }
 }
